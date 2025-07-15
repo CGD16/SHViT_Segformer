@@ -555,6 +555,7 @@ class SHViT3D(nn.Module):
         outs = []
         
         x = self.patch_embed(inputs)
+        
         x = self.blocks1(x)
         if self.num_stages >= 3:
             outs.append(x)

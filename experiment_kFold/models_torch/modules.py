@@ -1,3 +1,6 @@
+# from: https://github.com/IMvision12/SegFormer-tf/blob/main/models/modules.py
+# converted to pytorch
+ 
 import torch
 import torch.nn as nn
 

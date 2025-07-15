@@ -1,3 +1,6 @@
+# from: https://github.com/IMvision12/SegFormer-tf/blob/main/models/Attention.py
+# converted to pytorch and 3D
+
 import torch
 import torch.nn as nn
 import math
